@@ -28,3 +28,13 @@ git config --global pull.rebase false
 git config --get user.name
 git config --get user.email
 ```
+
+### ssh
+
+```bash
+ls ~/.ssh/id_ed25519.pub
+```
+
+```bash
+cat ~/.ssh/id_ed25519.pub
+```
