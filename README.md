@@ -36,10 +36,6 @@ ls ~/.ssh/id_ed25519.pub
 ```
 
 ```bash
-cat ~/.ssh/id_ed25519.pub
-```
-
-```bash
 ssh-keygen -t ed25519
 ```
 
