@@ -41,6 +41,7 @@ nano
 git config --global core.editor "nano --wait"
 ```
 
+check configs
 ```bash
 git config --list
 ```
@@ -52,14 +53,17 @@ git config --get user.email
 
 ### ssh
 
+chek for ssh key
 ```bash
 ls ~/.ssh/id_ed25519.pub
 ```
 
+create key
 ```bash
 ssh-keygen -t ed25519
 ```
 
+get public key
 ```bash
 cat ~/.ssh/id_ed25519.pub
 ```
