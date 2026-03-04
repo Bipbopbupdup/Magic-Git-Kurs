@@ -1,9 +1,9 @@
 # Magic-Git-Kurs
 Eine repo fuer den Git-Good Kurs
 
-## Commads zum kopiren
+## Commands zum kopieren
 
-nur fuer mac user
+nur für mac user
 ```bash
 echo .DS_Store >> ~/.gitignore_global
 git config --global core.excludesfile ~/.gitignore_global
@@ -13,7 +13,10 @@ git config --global core.excludesfile ~/.gitignore_global
 
 ```bash
 git config --global user.name "Your Name"
-git config --global user.email yourname@example.com
+```
+
+```bash
+git config --global user.email "yourname@example.com"
 ```
 
 ```bash
@@ -24,6 +27,10 @@ git config --global init.defaultBranch main
 git config --global pull.rebase false
 ```
 
+```bash
+git config --list
+```
+or
 ```bash
 git config --get user.name
 git config --get user.email
