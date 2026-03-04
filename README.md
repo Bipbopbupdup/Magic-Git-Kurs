@@ -11,20 +11,34 @@ git config --global core.excludesfile ~/.gitignore_global
 
 ### Git Einstellen
 
+add  name
 ```bash
 git config --global user.name "Your Name"
 ```
 
+add eamil
 ```bash
 git config --global user.email "yourname@example.com"
 ```
 
+rename master default to main
 ```bash
 git config --global init.defaultBranch main
 ```
 
+pull behaivior
 ```bash
 git config --global pull.rebase false
+```
+
+vscode
+```bash
+git config --global core.editor "code --wait"
+```
+
+nano
+```bash
+git config --global core.editor "nano --wait"
 ```
 
 ```bash
