@@ -1,84 +1,52 @@
 ![](./attachments/wizzard.gif)
-# Magic-Git-Kurs
+# Magic-Git-Course
 
-hello traveler you came to the right place
-if your quest i to configre some git.
-## For windows User
-if you heve installed git for windows you mabey have already configued git on your maschine.
-please make shure that these configuration were made
-- use the basj
+*“Heeellooo, traveleeeer…*
+*I seeee… you seek to git gud… heh heh…*
+*If it is your quest… to install... and to configure some git...*
+*then fret not, for fate has guided you to the right place.*
+*~ hocusss… pocusss… do not loooose your focuuusss… ~"*
 
-## Configure your git
+## install Vs-code
+ 
+For this course, we strongly suggest using [Visual Studio Code](https://code.visualstudio.com/download) 
 
-> [!WARNING]
+## Setting up git
+
+follow the steps according to your operating system.
+
+### For MacOS and Linux User
+
+go to the Odin project and
+follow the instructions for setting up git
+[here](https://www.theodinproject.com/lessons/foundations-setting-up-git)
+
+### For windows User
+
+1. install [git for windows](https://gitforwindows.org/index.html)
+   Once the installer has started, follow the instructions as provided in the **Git Setup** wizard screen until the installation is complete.
+   alternatively you can follow this **YouTube tutorial** [here](https://www.youtube.com/watch?v=t2-l3WvWvqg)
+2. after the Installation create a GitHub Account
+3. connect an ssh key to the account [could be helpful](https://docs.github.com/en/authentication/connecting-to-github-with-ssh)
+4. NEEED TO DOO MORE RESEARCH
+   
+> [!INFO]
+> please make sure that the default branch name is set to main
 > 
-> For macOS Users
+
+## if problem's arise
+
+dont fret if something dose not work.
+you can write or email us if you need help.
+- Ali.Liske@haw-hamburg.de
+- Gleb.nachname@haw-hamburg.de
+We will be also be there to help 30 min before the course starts :)
+
+---
+
+> [!info] 
 > 
->Run these two commands to tell Git to ignore .DS\_Store files, which are automatically created when you use Finder to look into a folder. .DS\_Store files are invisible to the user and hold custom attributes or metadata (like thumbnails) for the folder, and if you don’t configure Git to ignore them, pesky .DS\_Store files will show up in your commits. Remember to copy and paste each of these commands into your terminal.
->
->```bash
->echo .DS_Store >> ~/.gitignore_global
->```
->```bash
->git config --global core.excludesfile ~/.gitignore_global
->```
+> If you don't like the idea of using tools made by Microsoft or US tech companies, and you know what you're doing and want to use a different IDE or Git hosting platform, then go for it. Please note  that 
+> the tasks and tutorials were created based on the assumption that you're using VSCode and GitHub.
 >
 
-### Git Einstellen
-
-add  name
-```bash
-git config --global user.name "Your Name"
-```
-
-add eamil
-```bash
-git config --global user.email "yourname@example.com"
-```
-
-rename master default to main
-```bash
-git config --global init.defaultBranch main
-```
-
-pull behaivior
-```bash
-git config --global pull.rebase false
-```
-
-vscode
-```bash
-git config --global core.editor "code"
-```
-
-nano
-```bash
-git config --global core.editor "nano"
-```
-
-check configs
-```bash
-git config --list
-```
-or
-```bash
-git config --get user.name
-git config --get user.email
-```
-
-### ssh
-
-chek for ssh key
-```bash
-ls ~/.ssh/id_ed25519.pub
-```
-
-create key
-```bash
-ssh-keygen -t ed25519
-```
-
-get public key
-```bash
-cat ~/.ssh/id_ed25519.pub
-```
