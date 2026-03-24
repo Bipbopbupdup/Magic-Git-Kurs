@@ -11,7 +11,9 @@ please make shure that these configuration were made
 ## Configure your git
 
 > [!WARNING] For macOS Users
+> 
 >Run these two commands to tell Git to ignore .DS\_Store files, which are automatically created when you use Finder to look into a folder. .DS\_Store files are invisible to the user and hold custom attributes or metadata (like thumbnails) for the folder, and if you don’t configure Git to ignore them, pesky .DS\_Store files will show up in your commits. Remember to copy and paste each of these commands into your terminal.
+>
 >```bash
 >echo .DS_Store >> ~/.gitignore_global
 >```
