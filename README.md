@@ -1,13 +1,24 @@
+![](./attachments/wizzard.gif)
 # Magic-Git-Kurs
-Eine repo fuer den Git-Good Kurs
 
-## Commands zum kopieren
+hello traveler you came to the right place
+if your quest i to configre some git.
+## For windows User
+if you heve installed git for windows you mabey have already configued git on your maschine.
+please make shure that these configuration were made
+- use the basj
 
-nur für mac user
-```bash
-echo .DS_Store >> ~/.gitignore_global
-git config --global core.excludesfile ~/.gitignore_global
-```
+## Configure your git
+
+> [!WARNING] For macOS Users
+>Run these two commands to tell Git to ignore .DS\_Store files, which are automatically created when you use Finder to look into a folder. .DS\_Store files are invisible to the user and hold custom attributes or metadata (like thumbnails) for the folder, and if you don’t configure Git to ignore them, pesky .DS\_Store files will show up in your commits. Remember to copy and paste each of these commands into your terminal.
+>```bash
+>echo .DS_Store >> ~/.gitignore_global
+>```
+>```bash
+>git config --global core.excludesfile ~/.gitignore_global
+>```
+>
 
 ### Git Einstellen
 
