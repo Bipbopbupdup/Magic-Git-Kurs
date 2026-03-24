@@ -44,12 +44,12 @@ git config --global pull.rebase false
 
 vscode
 ```bash
-git config --global core.editor "code --wait"
+git config --global core.editor "code"
 ```
 
 nano
 ```bash
-git config --global core.editor "nano --wait"
+git config --global core.editor "nano"
 ```
 
 check configs
