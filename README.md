@@ -49,6 +49,3 @@ We will be also be there to help 30 min before the course starts :)
 > If you don't like the idea of using tools made by Microsoft or US tech companies, and you know what you're doing and want to use a different IDE or Git hosting platform, then go for it. Please note  that 
 > the tasks and tutorials were created based on the assumption that you're using VSCode and GitHub.
 >
-
-
-hi this is mac/hi this is linux
