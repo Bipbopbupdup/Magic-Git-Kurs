@@ -50,3 +50,5 @@ We will be also be there to help 30 min before the course starts :)
 > the tasks and tutorials were created based on the assumption that you're using VSCode and GitHub.
 >
 
+
+hi this is linux
