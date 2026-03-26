@@ -17,9 +17,13 @@ follow the steps according to your operating system.
 
 ### For MacOS and Linux User
 
-go to the Odin project and
-follow the instructions for setting up git
-[here](https://www.theodinproject.com/lessons/foundations-setting-up-git)
+1. go to the Odin project and follow the instructions for setting up git
+[here](https://www.theodinproject.com/lessons/foundations-setting-up-git).
+
+2. After following the instructions change your default commit-editor to *VScode*.
+```bash
+git config --global core.editor "code --wait"
+```
 
 ### For windows User
 
@@ -33,6 +37,25 @@ follow the instructions for setting up git
 > [!INFO]
 > please make sure that the default branch name is set to main
 > 
+
+## After setting git up
+ 
+ check if all of your setting are implemented.
+```bash
+git config --list
+```
+*(press q to quit)*
+
+your output should be similar to this
+```bash
+user.name=your-name
+user.email=your@email.com
+init.defaultbranch=main
+color.ui=auto
+pull.rebase=false
+core.editor=code
+```
+
 
 ## if problem's arise
 
