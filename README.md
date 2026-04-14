@@ -62,7 +62,7 @@ core.editor=code
 dont fret if something dose not work.
 you can write or email us if you need help.
 - Ali.Liske@haw-hamburg.de
-- Gleb.nachname@haw-hamburg.de
+- Gleb.Kamnev@haw-hamburg.de
 
 We will be also be there to help 30 min before the course starts :)
 
