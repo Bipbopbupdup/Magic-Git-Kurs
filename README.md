@@ -7,52 +7,52 @@
 *then fret not, for fate has guided you to the right place.*
 *~ hocusss… pocusss… do not loooose your focuuusss… ~"*
 
-## install Vs-code
+## Install VSCode
  
-For this course, we strongly suggest using [Visual Studio Code](https://code.visualstudio.com/download) 
+For this course, we strongly suggest using [Visual Studio Code](https://code.visualstudio.com/download).
 
-## Setting up git
+## Setting up Git
 
-follow the steps according to your operating system.
+Follow the steps according to your operating system.
 
-### For MacOS and Linux User
+### For MacOS and Linux users
 
-1. go to the Odin project and follow the instructions for setting up git
+1. Go to the Odin project and follow the instructions for setting up Git
 [here](https://www.theodinproject.com/lessons/foundations-setting-up-git).
 
-2. After following the instructions change your default commit-editor to *VScode*.
+2. After following the instructions change your default commit-editor to *VSCode*:
 ```bash
 git config --global core.editor "code --wait"
 ```
 
-### For windows User
+### For Windows users
 
-1. install [git for windows](https://gitforwindows.org/index.html)
+1. Install [Git for Windows](https://gitforwindows.org/index.html).
    Once the installer has started, follow the instructions as provided in the **Git Setup** wizard screen until the installation is complete.
-   alternatively you can follow this **YouTube tutorial** [here](https://www.youtube.com/watch?v=t2-l3WvWvqg)
-2. after the Installation create a GitHub Account
-3. connect an ssh key to the account [this could be helpful](https://docs.github.com/en/authentication/connecting-to-github-with-ssh)
+   Alternatively, you can follow this **YouTube tutorial** [here](https://www.youtube.com/watch?v=t2-l3WvWvqg).
+2. After the installation create a GitHub account (if you haven't done so yet).
+3. Connect an SSH key to the account. [This](https://docs.github.com/en/authentication/connecting-to-github-with-ssh) could be helpful.
 4. If you have any problems with the configuration, don't worry — we will work through it together before the course starts with those using the university PCs, where you can join.
 
-### For people without a portable device capable of using Git.
+### For people without a portable device capable of using Git
 
-1. Create a GitHub Account
+1. Create a GitHub Account (if you haven't done so yet).
 2. Please come 30 minutes before the course starts. We will then configure Git and add the SSH key together.
    
 > [!IMPORTANT]
-> please make sure that the default branch name is set to main
+> Please make sure that the default branch name is set to `main`!
 > 
 
-## After setting git up
+## After setting up Git
  
- check if all of your setting are implemented.
+Check if all of your settings are configured correctly:
 ```bash
 git config --list
 ```
-*(press q to quit)*
+*(press `q` to quit)*
 
-your output should be similar to this
-```bash
+Your output should be similar to this:
+```ini
 user.name=your-name
 user.email=your@email.com
 init.defaultbranch=main
@@ -62,20 +62,20 @@ core.editor=code
 ```
 
 
-## if problem's arise
+## If any problems arise
 
-dont fret if something dose not work.
-you can write or email us if you need help.
-- Ali.Liske@haw-hamburg.de
-- Gleb.Kamnev@haw-hamburg.de
+Don't fret if something does not work.
+You can write us via Teams or email us if you need help:
+- ali.liske@haw-hamburg.de
+- gleb.kamnev@haw-hamburg.de
 
-We will be also be there to help 30 min before the course starts :)
+We will also be there to help 30 min before the course starts. :)
 
 ---
 
-> [!info] 
+> [!NOTE] 
 > 
-> If you don't like the idea of using tools made by Microsoft or US tech companies, and you know what you're doing and want to use a different IDE or Git hosting platform, then go for it. Please note  that 
+> If you don't like the idea of using tools made by Microsoft or US tech companies, and you know what you're doing and want to use a different IDE or Git hosting platform, then go for it. Please note that 
 > the tasks and tutorials were created based on the assumption that you're using VSCode and GitHub.
 >
 
