@@ -31,8 +31,13 @@ git config --global core.editor "code --wait"
    Once the installer has started, follow the instructions as provided in the **Git Setup** wizard screen until the installation is complete.
    alternatively you can follow this **YouTube tutorial** [here](https://www.youtube.com/watch?v=t2-l3WvWvqg)
 2. after the Installation create a GitHub Account
-3. connect an ssh key to the account [could be helpful](https://docs.github.com/en/authentication/connecting-to-github-with-ssh)
-4. NEEED TO DOO MORE RESEARCH
+3. connect an ssh key to the account [this could be helpful](https://docs.github.com/en/authentication/connecting-to-github-with-ssh)
+4. If you have any problems with the configuration, don't worry — we will work through it together before the course starts with those using the university PCs, where you can join.
+
+### For people without a portable device capable of using Git.
+
+1. Create a GitHub Account
+2. Please come 30 minutes before the course starts. We will then configure Git and add the SSH key together.
    
 > [!INFO]
 > please make sure that the default branch name is set to main
