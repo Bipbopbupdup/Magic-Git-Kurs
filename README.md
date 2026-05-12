@@ -39,7 +39,7 @@ git config --global core.editor "code --wait"
 1. Create a GitHub Account
 2. Please come 30 minutes before the course starts. We will then configure Git and add the SSH key together.
    
-> [!INFO]
+> [!IMPORTANT]
 > please make sure that the default branch name is set to main
 > 
 
