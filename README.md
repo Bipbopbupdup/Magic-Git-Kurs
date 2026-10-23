@@ -42,7 +42,7 @@ Create a GitHub Account (if you haven't done so yet).
 > Please make sure that the default branch name is set to `main`!
 > 
 
-## After setting up Git
+## The results we want after setting up Git
  
 Check if all of your settings are configured correctly:
 ```bash
