@@ -48,7 +48,6 @@ Check if all of your settings are configured correctly:
 ```bash
 git config --list
 ```
-*(press `q` to quit)*
 
 Your output should be similar to this:
 ```ini
@@ -59,6 +58,7 @@ color.ui=auto
 pull.rebase=false
 core.editor=code
 ```
+*(press `q` to quit)*
 
 
 ## If any problems arise
