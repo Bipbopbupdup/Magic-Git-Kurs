@@ -36,8 +36,7 @@ git config --global core.editor "code --wait"
 
 ### For people without a portable device capable of using Git
 
-1. Create a GitHub Account (if you haven't done so yet).
-2. Please come 30 minutes before the course starts. We will then configure Git and add the SSH key together.
+Create a GitHub Account (if you haven't done so yet).
    
 > [!IMPORTANT]
 > Please make sure that the default branch name is set to `main`!
